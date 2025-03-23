@@ -2,6 +2,14 @@
 Customer behaviour analysis 
 
 Customer Behavior Analysis for ShopEasy
+## 📌 Table of Contents  
+1. [Project Overview](#project-overview)  
+2. [Data Set overview](#data-sources)  
+3. [Key Insights](#key-insights)  
+4. [Business Recommendations](#business-recommendations)  
+5. [Implementation Plan](#implementation-plan)  
+6. [Future Enhancements](#future-enhancements)  
+
 
 Project Overview
 
