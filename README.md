@@ -1,5 +1,4 @@
-# assignment
-Customer behaviour analysis 
+#Customer behaviour analysis 
 
 Customer Behavior Analysis for ShopEasy
 ## 📌 Table of Contents  
