@@ -83,18 +83,16 @@ SET GLOBAL local_infile = 1;
 SELECT COUNT(*) FROM engagement_data;
 USE shopeasy;
 SELECT * FROM engagement_data LIMIT 5;
--- Check the total number of customers
+
 SELECT COUNT(*) FROM customers;
 
--- Check how many unique products exist
 SELECT COUNT(DISTINCT ProductID) FROM product;
 
--- Check the engagement trends
 SELECT ContentType, COUNT(*) AS TotalEngagements
 FROM engagement_data
 GROUP BY ContentType
 ORDER BY TotalEngagements DESC;
--- Combine customer journey, product, and engagement data
+
 SELECT cj.CustomerID, cj.ProductID, p.ProductName, cj.Stage, cj.Action, 
        cj.Duration, ed.ContentType, ed.ViewsClicksCombined
 FROM customer_journey cj
